@@ -1,8 +1,25 @@
 aid: nve
-name: Nve
-description: 'Nve is a company surfaced as a portfolio company of norwest-venture-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nve.png
+name: NVE Corporation
+description: 'NVE Corporation (nve.com, NASDAQ: NVEC) is a leader in the practical commercialization
+  of spintronics, a nanotechnology that relies on electron spin rather than electron charge to acquire,
+  store, and transmit information. NVE designs and manufactures spintronic GMR and TMR magnetic sensors
+  (analog, angle/rotation, current, gear-tooth, and medical sensors), digital signal isolators (CAN,
+  RS-422/485, PLC, battery-management, and power interfaces), and power-management ICs. Its developer
+  surface is hardware-oriented: PDF datasheets, application notes, reference designs, magnetic-field
+  calculators/web apps, a YouTube channel, and Arduino/embedded sample code on GitHub. NVE publishes no
+  software/web API, OpenAPI or AsyncAPI specification, SDK, or developer API platform.'
 url: https://raw.githubusercontent.com/api-evangelist/nve/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,22 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-note: 'nve.com resolves to NVE Corporation, a public spintronics semiconductor manufacturer with no
+  web/software API surface; VC-backing metadata is inherited from the portfolio-lead source and was not
+  independently verified in this pass.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Semiconductors
+- Sensors
+- Spintronics
+- Magnetic Sensors
+- Isolators
+- Power ICs
+- Electronics
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,10 @@ maintainers:
 common:
 - type: Website
   url: https://nve.com
+- type: GitHubOrganization
+  url: https://github.com/NveCorporation
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
