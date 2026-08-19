@@ -30,7 +30,7 @@ x-tier-reason: portfolio-lead
 x-note: 'nve.com resolves to NVE Corporation, a public spintronics semiconductor manufacturer with no
   web/software API surface; VC-backing metadata is inherited from the portfolio-lead source and was not
   independently verified in this pass.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
